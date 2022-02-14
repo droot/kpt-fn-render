@@ -17,5 +17,6 @@ metadata:
   name: custom
   annotations:
     config.kubernetes.io/local-config: "true"
+  namespace: staging
 spec:
   image: nginx:1.2.3
